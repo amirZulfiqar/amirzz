@@ -5,16 +5,15 @@ const port = process.env.PORT || 3000;
 app.use(express.json())
 
 app.get('/', (req, res) => {
-   res.send('amir busuk')
+   res.send('Hello World!')
 })
 
 app.listen(port, () => {
    console.log(`Example app listening on port ${port}`)
 })
 
-
 const { MongoClient, ServerApiVersion } = require('mongodb');
-const uri = "mongodb+srv://b022210171:1Ii2I9ORdxU0AV8G@cluster0.1x17rsv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const uri = "mongodb+srv://b022210171:AbcDef!23$56  @cluster0.1x17rsv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {
